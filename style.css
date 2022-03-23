@@ -57,18 +57,26 @@ p {
 .image {
     max-width: 450px;
     position: relative;
-    bottom: 2vh;
-    right: 0;
 }
 
 .button {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     font-family: 'Spartan', sans-serif;
     font-size: larger;
     border: 3px var(--primary-color) solid;
     padding: 0.5rem;
     border-radius: 0.5rem 0.5rem;
     display: block;
-    margin: 7rem auto;
+    margin: auto;
+    margin-top: 7rem;
+}
+
+.second {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: larger;
+    border: 3px var(--primary-color) solid;
+    margin-top: 1rem;
+    margin-bottom: 7rem;
 }
