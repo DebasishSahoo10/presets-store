@@ -52,6 +52,7 @@ p {
     color: var(--third-color);
     font-weight: bold;
     max-width: 80%;
+    margin-bottom: 0.5rem;
 }
 
 .image {
